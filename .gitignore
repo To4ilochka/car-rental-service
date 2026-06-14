@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Docker & Containers ###
+.docker/
+*data/
+*.log
+logs/
+
+### Operating System Files ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Environment Variables (Sensitve Data) ###
+.env
+.env.local
+.env.*.local
